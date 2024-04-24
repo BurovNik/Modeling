@@ -26,7 +26,7 @@ def show_stat(arr1, arr2, arr3, name):
 def uniform_distribution_stats(a, b):
     mean = (a+b)/2
     variance = (b-a)**2/12
-    std = (b-a)/2 * np.sqrt(3)
+    std = (b-a)/(2 * np.sqrt(3))
 
     print("-----------------------------------------")
     print(f"Для Равномерного распределения с границами ({a}, {b})")

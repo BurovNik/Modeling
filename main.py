@@ -20,7 +20,7 @@ fib3 = fibonacci_generator(10000)
 # draw_hist(fib1, fib2, fib3, "Генератор Фибоначчи")
 # draw_ecdf(fib1, fib2, fib3, "Генератор Фибоначчи")
 # draw_graphic_test(fib1, fib2, fib3, "Генератор Фибоначчи")
-# show_stat(fib1, fib2, fib3, "Генератор Фибоначчи")
+show_stat(fib1, fib2, fib3, "Генератор Фибоначчи")
 
 merc1 = Mersen_generator(1000)
 merc2 = Mersen_generator(5000)
